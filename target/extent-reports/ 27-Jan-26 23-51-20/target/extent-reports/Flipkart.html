@@ -1,0 +1,2357 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@ce8b10435bcbae260c334c0d0c6b61d2c19b6168/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Jan 27, 2026 11:51:19 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@Parallelsafe</a><a class="dropdown-item" href="#">@tc006</a><a class="dropdown-item" href="#">@tc003</a><a class="dropdown-item" href="#">@tc001</a><a class="dropdown-item" href="#">@Regression</a><a class="dropdown-item" href="#">@tc005</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To validate flikart application</p>
+            <p class="text-sm">
+              <span>11:51:21 pm</span> / <span>00:06:36:196</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To validate flikart application</h5>
+<span class='badge badge-success'>01.27.2026 11:51:21 pm</span>
+<span class='badge badge-danger'>01.27.2026 11:57:57 pm</span>
+<span class='badge badge-default'>00:06:36:196</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="3"><span class="badge log fail-bg mr-2">Fail</span>to validate the search functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.user_enter_the_text_in_the_search_field()">
+                <span>Given user enter the text in the search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.Searchmobile_Testcase.click_te_search_buttion()">
+                <span>When Click te search buttion</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e42ae12ec9dcfab04569482af0cb6fb6, sendKeysToElement {value=[Ljava.lang.CharSequence;@5cff92f8, id=f.F0CB7E737CEB32D078746E2915568209.d.1591998B1A7A79B1D4E22013F6F4A5E7.e.48}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58268}, goog:processID: 31900, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58268/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e42ae12ec9dcfab04569482af0cb6fb6)] -> xpath: //input[@name='q']]
+Session ID: e42ae12ec9dcfab04569482af0cb6fb6
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.Search_Page.clciksearch(Search_Page.java:39)
+	at StepDefination.Searchmobile_Testcase.click_te_search_buttion(Searchmobile_Testcase.java:35)
+	at ✽.Click te search buttion(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_search_result_page_and_display_the_relavent_details()">
+                <span>Then It should navigates to the search result page and display the relavent details</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_minimum_and_maximum_amount()">
+                <span>And Select Minimum and Maximum amount</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_the_brand()">
+                <span>And Select the Brand</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_the_ram()">
+                <span>And Select the Ram</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_battery_capacity()">
+                <span>And Select Battery Capacity</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.it_should_display_the_relevant_result()">
+                <span>Then It should display the Relevant result</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded2.png' src="../screenshots/embedded2.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="34"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="35"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "Mobile" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7cb81f44bcf96d69355768d5485e26a7, sendKeysToElement {value=[Ljava.lang.CharSequence;@6a8d45dd, id=f.B2AFA214D4505CC7F76594A729A678D6.d.8A74FD86508058CA56527C5C28A1197A.e.54}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63423}, goog:processID: 30964, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63423/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (7cb81f44bcf96d69355768d5485e26a7)] -> xpath: //input[@name='q']]
+Session ID: 7cb81f44bcf96d69355768d5485e26a7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded4.png' src="../screenshots/embedded4.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="57"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "tv" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e2fa5c546374a2bd3c771fa804646ef3, sendKeysToElement {value=[Ljava.lang.CharSequence;@2fb3e216, id=f.498F948359465222D9775E4921E6856A.d.0B1A0912D619D4C20D23327ADF673FAF.e.81}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58375}, goog:processID: 14884, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58375/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (e2fa5c546374a2bd3c771fa804646ef3)] -> xpath: //input[@name='q']]
+Session ID: e2fa5c546374a2bd3c771fa804646ef3
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded6.png' src="../screenshots/embedded6.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="75"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "speaker" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8062c84de83408d681469ee7030e9fde, sendKeysToElement {value=[Ljava.lang.CharSequence;@1dfd974d, id=f.3B7BC0AEF6BAB17D8B8300600BC3F849.d.60299680CE139B9B0B9A18981F91A16F.e.51}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58488}, goog:processID: 23068, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58488/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8062c84de83408d681469ee7030e9fde)] -> xpath: //input[@name='q']]
+Session ID: 8062c84de83408d681469ee7030e9fde
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded8.png' src="../screenshots/embedded8.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="93"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "shirt" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [75e44c72a7b0cb84c22157f9bb185fb8, sendKeysToElement {value=[Ljava.lang.CharSequence;@2dcd403e, id=f.A8EF17599A5DE875E8F39A571EE65D05.d.752F2DACEE0B630E098CEAA53115ED7F.e.57}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58603}, goog:processID: 30572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58603/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (75e44c72a7b0cb84c22157f9bb185fb8)] -> xpath: //input[@name='q']]
+Session ID: 75e44c72a7b0cb84c22157f9bb185fb8
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded10.png' src="../screenshots/embedded10.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="111"><span class="badge log pass-bg mr-2">Pass</span>To get the title and price from search</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.enter_the_search_text_in_the_text_field()">
+                <span>Given Enter the search text in the text field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.click_the_search_icon()">
+                <span>When Click the search icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.it_should_the_search_result_and_get_the_title()">
+                <span>Then It should the search result and get the title</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded12.png' src="../screenshots/embedded12.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="129"><span class="badge log fail-bg mr-2">Fail</span>To Test the search functionality with excel sheet</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.SearchWithExcel_Stepdefination.enter_search_test_in_the_search_field()">
+                <span>Given Enter search Test in the search Field</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=143.0.7499.194)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [9faa45b8b60e420a5c99e1af8ad0833b, sendKeysToElement {value=[Ljava.lang.CharSequence;@26b9fab1, id=f.020FBA3DA2C7FEE75CE1C0324E3C1958.d.0A4F40FF7784889D77D97216F29F73C4.e.56}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 143.0.7499.194, chrome: {chromedriverVersion: 143.0.7499.192 (be2c1f4fd45..., userDataDir: C:\Users\G\AppData\Local\Te...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58842}, goog:processID: 29308, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58842/devtoo..., se:cdpVersion: 143.0.7499.194, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (9faa45b8b60e420a5c99e1af8ad0833b)] -> xpath: //input[@name='q']]
+Session ID: 9faa45b8b60e420a5c99e1af8ad0833b
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.Searchexcel_Page.Searchwithexcel(Searchexcel_Page.java:38)
+	at StepDefination.SearchWithExcel_Stepdefination.enter_search_test_in_the_search_field(SearchWithExcel_Stepdefination.java:19)
+	at ✽.Enter search Test in the search Field(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:64)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchWithExcel_Stepdefination.click_search_icon()">
+                <span>When click search Icon</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchWithExcel_Stepdefination.it_should_display_the_relevent_result()">
+                <span>Then It should display the Relevent result</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded14.png' src="../screenshots/embedded14.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="2"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To validate flikart application</p>
+            <p class="text-sm">
+              <span>11:51:21 pm</span> / <span>00:06:29:004</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">To validate flikart application</h5>
+<span class='badge badge-success'>01.27.2026 11:51:21 pm</span>
+<span class='badge badge-danger'>01.27.2026 11:57:50 pm</span>
+<span class='badge badge-default'>00:06:29:004</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span title='Skip to the next failed step' class='badge badge-danger pointer float-right ne ml-1'><i class="fa fa-fast-forward"></i></span>
+<span title='Collapse all nodes' class='badge badge-default pointer float-right ct ml-1'><i class="fa fa-compress"></i></span>
+<span title='Expand all nodes' class='badge badge-default pointer float-right et'><i class="fa fa-expand"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="4"><span class="badge log fail-bg mr-2">Fail</span>to validate the search functionality</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.user_enter_the_text_in_the_search_field()">
+                <span>Given user enter the text in the search field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.Searchmobile_Testcase.click_te_search_buttion()">
+                <span>When Click te search buttion</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [390c43bd51a459d66a65d67c52103411, sendKeysToElement {value=[Ljava.lang.CharSequence;@46f98276, id=f.41834B85279B1619B6CFEB3203C25A22.d.28419A5E37BDCBC4DBC947B56E1664C7.e.52}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 25080, ms:edgeOptions: {debuggerAddress: localhost:58273}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58273/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (390c43bd51a459d66a65d67c52103411)] -> xpath: //input[@name='q']]
+Session ID: 390c43bd51a459d66a65d67c52103411
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.Search_Page.clciksearch(Search_Page.java:39)
+	at StepDefination.Searchmobile_Testcase.click_te_search_buttion(Searchmobile_Testcase.java:35)
+	at ✽.Click te search buttion(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:12)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_search_result_page_and_display_the_relavent_details()">
+                <span>Then It should navigates to the search result page and display the relavent details</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_minimum_and_maximum_amount()">
+                <span>And Select Minimum and Maximum amount</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_the_brand()">
+                <span>And Select the Brand</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_the_ram()">
+                <span>And Select the Ram</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.select_battery_capacity()">
+                <span>And Select Battery Capacity</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.Filter_Stepdefination.it_should_display_the_relevant_result()">
+                <span>Then It should display the Relevant result</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded1.png' src="../screenshots/embedded1.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="31"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="32"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "Mobile" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [eaddea30a8563ab584bd12c8fd73ecab, sendKeysToElement {value=[Ljava.lang.CharSequence;@20b2b3c, id=f.242371C639AC777F1223930B6840C9B1.d.B872DD1CA359D9A4AEEC6CD19418F818.e.51}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 34516, ms:edgeOptions: {debuggerAddress: localhost:63386}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63386/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (eaddea30a8563ab584bd12c8fd73ecab)] -> xpath: //input[@name='q']]
+Session ID: eaddea30a8563ab584bd12c8fd73ecab
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded3.png' src="../screenshots/embedded3.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="49"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "tv" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [0f4732c7bb145a74bb13d3b4780286e7, sendKeysToElement {value=[Ljava.lang.CharSequence;@67c6c986, id=f.D8FA3CA1D21014A9511E3F0439C3D033.d.8B29E0E74BE61E20AB11849429DF1389.e.86}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 26416, ms:edgeOptions: {debuggerAddress: localhost:58324}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58324/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (0f4732c7bb145a74bb13d3b4780286e7)] -> xpath: //input[@name='q']]
+Session ID: 0f4732c7bb145a74bb13d3b4780286e7
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded5.png' src="../screenshots/embedded5.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="67"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "speaker" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [33421767fa95f626e2a83c963ae570d1, sendKeysToElement {value=[Ljava.lang.CharSequence;@402d6904, id=f.37130BCF18EA577E871D2F255FE3190F.d.12D9EC0E47C09063649EBEF481FA688A.e.55}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 11020, ms:edgeOptions: {debuggerAddress: localhost:58436}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58436/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (33421767fa95f626e2a83c963ae570d1)] -> xpath: //input[@name='q']]
+Session ID: 33421767fa95f626e2a83c963ae570d1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded7.png' src="../screenshots/embedded7.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="85"><span class="badge log fail-bg mr-2">Fail</span>To validate the search functionality with different values</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Close the popup</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user enter the "shirt" in the search field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>When click the search button</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [42439a2d4e3ad67b4a82a7c14db1d606, sendKeysToElement {value=[Ljava.lang.CharSequence;@53c2529, id=f.CB79A3F998518A9A52A93A5D01C2A5C0.d.0C9E969258809E5A0804F9095FC8BF43.e.80}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 32556, ms:edgeOptions: {debuggerAddress: localhost:58559}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58559/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (42439a2d4e3ad67b4a82a7c14db1d606)] -> xpath: //input[@name='q']]
+Session ID: 42439a2d4e3ad67b4a82a7c14db1d606
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.MultipleSearch_Page.clicksearch(MultipleSearch_Page.java:31)
+	at StepDefination.MultipleSearch_Stepdefination.click_the_search_button(MultipleSearch_Stepdefination.java:22)
+	at ✽.click the search button(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:33)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step skip-bg">
+                    <span>Then en it should navigates to the text page and display the correspding page</span>
+      <div>Step skipped
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded9.png' src="../screenshots/embedded9.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="103"><span class="badge log pass-bg mr-2">Pass</span>To get the title and price from search</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.enter_the_search_text_in_the_text_field()">
+                <span>Given Enter the search text in the text field</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.click_the_search_icon()">
+                <span>When Click the search icon</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Titleprice_Stepdefination.it_should_the_search_result_and_get_the_title()">
+                <span>Then It should the search result and get the title</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded11.png' src="../screenshots/embedded11.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="122"><span class="badge log fail-bg mr-2">Fail</span>To Test the search functionality with excel sheet</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.launch_the_flipkart_aplication()">
+                <span>Given Launch the Flipkart aplication</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.close_the_popup()">
+                <span>When Close the popup</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefination.Searchmobile_Testcase.it_should_navigates_to_the_home_page()">
+                <span>Then It should navigates to the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step fail-bg" title="StepDefination.SearchWithExcel_Stepdefination.enter_search_test_in_the_search_field()">
+                <span>Given Enter search Test in the search Field</span>
+      <div>
+        <textarea disabled class="code-block">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: MicrosoftEdge=144.0.3719.92)
+Build info: version: '4.39.0', revision: '126f156aee'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.6'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c27725ee727b45391e994ca8bf5e9402, sendKeysToElement {value=[Ljava.lang.CharSequence;@64343bd8, id=f.16C33632EF1AF8277E1F7BFFE94EB5C7.d.35D0693528D7832E28AAB505C06104B1.e.49}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 144.0.3719.92, fedcm:accounts: true, goog:processID: 26216, ms:edgeOptions: {debuggerAddress: localhost:58792}, msedge: {msedgedriverVersion: 144.0.3719.92 (8380d6794b22..., userDataDir: C:\Users\G\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58792/devtoo..., se:cdpVersion: 144.0.3719.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: MicrosoftEdge on windows (c27725ee727b45391e994ca8bf5e9402)] -> xpath: //input[@name='q']]
+Session ID: c27725ee727b45391e994ca8bf5e9402
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy26.sendKeys(Unknown Source)
+	at Pages.Searchexcel_Page.Searchwithexcel(Searchexcel_Page.java:38)
+	at StepDefination.SearchWithExcel_Stepdefination.enter_search_test_in_the_search_field(SearchWithExcel_Stepdefination.java:19)
+	at ✽.Enter search Test in the search Field(file:///C:/Users/G/eclipse-workspace/Y_End_To_End_FlipkartProject/src/test/resources/features/searchfunctionality.feature:64)
+</textarea>
+      
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchWithExcel_Stepdefination.click_search_icon()">
+                <span>When click search Icon</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step skip-bg" title="StepDefination.SearchWithExcel_Stepdefination.it_should_display_the_relevent_result()">
+                <span>Then It should display the Relevent result</span>
+      <div>Step skipped
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER">
+                <span>Com.Hooks.hooks.cleanup(io.cucumber.java.Scenario)</span>
+      <div>flipkartAutomation
+          <div class="row mb-3"><div class="col-md-3">
+    
+
+<img data-featherlight='../screenshots/embedded13.png' src="../screenshots/embedded13.png">
+  
+    
+
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>12</span>
+</span>
+<p class="name">org.openqa.selenium.ElementNotInteractableException</p>
+<p class="duration text-sm">12 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>org.openqa.selenium.ElementNotInteractableException</h4>
+<span status="fail" class='badge log badge-danger'>12 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='15'>When Click te search buttion</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality.When Click te search buttion</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='16'>When Click te search buttion</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality.When Click te search buttion</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='45'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='46'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='63'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='64'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:36 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='81'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:46 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='82'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='99'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='100'>When click the search button</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values.When click the search button</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:57:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='127'>Given Enter search Test in the search Field</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet.Given Enter search Test in the search Field</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:57:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='134'>Given Enter search Test in the search Field</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet.Given Enter search Test in the search Field</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>12</span>
+</span>
+<p class="name">@Parallelsafe</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Parallelsafe</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>12 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='4'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='32'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='35'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='49'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='57'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='67'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='85'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='103'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='111'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:56:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='122'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:57:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tc006</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tc006</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:56:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='122'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:57:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>8</span>
+</span>
+<p class="name">@tc003</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tc003</h4>
+<span status="fail" class='badge log badge-danger'>8 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='32'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='35'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='49'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='57'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='67'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='85'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@tc001</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tc001</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='4'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>12</span>
+</span>
+<p class="name">@Regression</p>
+<p class="duration text-sm">14 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@Regression</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>12 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:51:21 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='4'>to validate the search functionality</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.to validate the search functionality</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='32'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:52:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='35'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='49'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:53:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='57'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:06 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='67'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:17 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='75'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:54:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='85'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:55:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='93'>To validate the search functionality with different values</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To validate the search functionality with different values</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='103'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='111'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:56:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='122'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>23:57:08 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='129'>To Test the search functionality with excel sheet</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To Test the search functionality with excel sheet</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+</span>
+<p class="name">@tc005</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tc005</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='103'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>23:55:57 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='111'>To get the title and price from search</a>
+<div class="">
+<span class="badge badge-default">To validate flikart application.To get the title and price from search</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Jan 27, 2026 11:51:19 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Jan 27, 2026 11:57:57 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>0</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>2</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='0%'>
+<b>0</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='100%'><b>2</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='14%'><b>2</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='85%'><b>12</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='66%'><b>72</b> steps passed</small></div>
+<div>
+<small data-tooltip='11%'><b>12</b> steps failed,
+<b>24</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To validate flikart application":396.196,"To validate flikart application":389.004
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@Parallelsafe</td>
+<td>2</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>14.286%</td>
+</tr>
+<tr>
+<td>@tc006</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@tc003</td>
+<td>0</td>
+<td>8</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@tc001</td>
+<td>0</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>@Regression</td>
+<td>2</td>
+<td>12</td>
+<td>0</td>
+<td>0</td>
+<td>14.286%</td>
+</tr>
+<tr>
+<td>@tc005</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 0,
+failParent: 2,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 2,
+failChild: 12,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 72,
+failGrandChild: 12,
+warningGrandChild: 0,
+skipGrandChild: 24,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c05cd28cde1617b9d0c05a831daff6cb97fd9fd5/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

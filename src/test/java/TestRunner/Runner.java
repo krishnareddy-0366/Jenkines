@@ -20,9 +20,10 @@ import io.cucumber.testng.CucumberOptions;
 )
 public class Runner extends AbstractTestNGCucumberTests {
 
-    @BeforeClass(alwaysRun = true)
+   
     @Parameters("browser")
-    public void setBrowser(String browser) {
+    @BeforeTest(alwaysRun = true)
+    public void setBrowser(@Optional("chrome") String browser) {
         hooks.setBrowser(browser);
         System.out.println("Browser set to:" + browser);
     }

@@ -22,7 +22,7 @@ public class Search_Page extends Library{
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(xpath = "//input[@name='q']") private WebElement Searchtext;
+	@FindBy(xpath="(//input[@name='q'])[1]") private WebElement Searchtext;
 	@FindBy(xpath = "//html[@lang='en-IN']") private WebElement Homepage;
 	@FindBy(xpath = "//html[@lang='en']") private WebElement searchresult;
 	@FindBy(xpath = "//div[@class='col col-7-12']") private List<WebElement> Entireresult;
